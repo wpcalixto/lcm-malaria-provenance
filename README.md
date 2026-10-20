@@ -2,6 +2,8 @@
 
 Version: v1.0.0 (in preparation)
 
+Zenodo DOI: [10.5281/zenodo.23505452](https://doi.org/10.5281/zenodo.23505452)
+
 Authors:
 - Sthefanie Monica Premebida — ORCID 0000-0002-8964-2119 — Federal University of Technology - Parana, Brazil
 - Gabrielly Queiroz Pereira — ORCID 0000-0003-2663-0783 — State University of Ponta Grossa, Brazil
