@@ -1,0 +1,29 @@
+file,variable,type,unit,description
+img_dir/*/*.bmp,pixel,uint8,gray level 0-255,Grayscale intensity of the field of view.
+ann_dir/*/*.png,pixel,uint8 palette index,-,Annotation index; 4 = background; other indices = annotated bounding boxes (category mapping not documented).
+splits/*.txt,line,string,-,Field identifier (file name without extension).
+cell_labels/cells_*.csv,split,string,-,List of the field: train or val.
+cell_labels/cells_*.csv,image,string,-,Field identifier.
+cell_labels/cells_*.csv,cell_id,integer,-,Cellpose instance identifier within the field.
+cell_labels/cells_*.csv,bbox,tuple of 4 integers,pixel,"Cell bounding box (y0, x0, y1, x1)."
+cell_labels/cells_*.csv,frac_on_cell,float,"fraction [0, 1]",Fraction of cell pixels overlapping the infected reference region.
+cell_labels/cells_*.csv,label,integer,-,"Label of the export routine: 1 = infected, 0 = uninfected."
+cell_labels/cells_*.csv,path,string,-,Absolute path of the exported crop on the original machine (crop not included).
+cell_labels/cells_*.csv,best_slice,integer,-,NIfTI slice selected for the field.
+cell_labels/cells_*.csv,best_transform,string,-,Geometric transformation selected for the field.
+cell_labels/cells_*.csv,align_score,integer,pixel,Alignment score (intersection count) of the selected slice and transformation.
+cell_labels/cells_*.csv,nii_status,string,-,"Status of the NIfTI reference for the field (e.g. ok, empty)."
+cell_labels/cells_*_relabel.csv,relabel,integer,-,"Label effectively evaluated: 1 = infected, 0 = uninfected."
+cell_labels/cells_*_relabel.csv,frac_recalc,float,"fraction [0, 1]",Recalculated overlap: inter_px divided by the bounding-box area.
+cell_labels/cells_*_relabel.csv,inter_px,integer,pixel,Intersection between the cell region and the dilated infected reference.
+cell_labels/alignment_*.csv,image,string,-,Field identifier.
+cell_labels/alignment_*.csv,slice,integer,-,Selected NIfTI slice.
+cell_labels/alignment_*.csv,transform,string,-,Selected geometric transformation.
+cell_labels/alignment_*.csv,score,integer,pixel,Alignment score.
+cell_labels/alignment_*.csv,nii_status,string,-,Status of the NIfTI reference for the field.
+cell_labels/audit_masks.csv,stem,string,-,Field identifier.
+cell_labels/audit_masks.csv,slice,integer,-,Slice shown in the audit.
+cell_labels/audit_masks.csv,transform,string,-,Transformation shown in the audit.
+cell_labels/audit_masks.csv,dilate_px,integer,pixel,Dilation applied in the audit view.
+cell_labels/audit_masks.csv,decision,string,-,Audit decision (e.g. approve).
+cell_labels/audit_masks.csv,timestamp,integer,s (Unix time),Time of the audit decision.

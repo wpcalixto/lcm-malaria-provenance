@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+type: dataset
+title: "Low-Cost Microscope dataset, code, and model checkpoints for Computational provenance in external evaluation of deep learning for malaria microscopy"
+version: "1.0.0"
+doi: "10.5281/zenodo.23505452"
+date-released: "2026-10-20"
+repository-code: "https://github.com/wpcalixto/lcm-malaria-provenance"
+license:
+  - CC-BY-4.0
+authors:
+  - given-names: "Sthefanie Monica"
+    family-names: "Premebida"
+    affiliation: "Federal University of Technology - Parana, Brazil"
+    orcid: "https://orcid.org/0000-0002-8964-2119"
+  - given-names: "Gabrielly Queiroz"
+    family-names: "Pereira"
+    affiliation: "State University of Ponta Grossa, Brazil"
+    orcid: "https://orcid.org/0000-0003-2663-0783"
+  - given-names: "Philipp"
+    family-names: "Wiedemann"
+    affiliation: "Department of Biotechnology, Mannheim University of Applied Sciences, Germany"
+  - given-names: "Marcella Scoczynski R."
+    family-names: "Martins"
+    affiliation: "Federal University of Technology - Parana, Brazil"
+    orcid: "https://orcid.org/0000-0002-5716-4968"
+  - given-names: "Wesley Pacheco"
+    family-names: "Calixto"
+    affiliation: "Institute of Systems and Robotics, University of Coimbra, Portugal"
+    orcid: "https://orcid.org/0000-0002-1928-4432"
+keywords:
+  - malaria
+  - microscopy
+  - deep learning
+  - external evaluation
+  - computational provenance
+  - explainability
+  - low-cost microscopy

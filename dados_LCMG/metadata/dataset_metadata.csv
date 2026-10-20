@@ -1,0 +1,16 @@
+field,value
+title,Low-Cost Microscope Germany (LCMG) dataset
+parent_record,"Low-Cost Microscope dataset, code, and model checkpoints for Computational provenance in external evaluation of deep learning for malaria microscopy"
+version,v1.0.0
+doi,10.5281/zenodo.23505452
+license,CC-BY-4.0
+institutions,Technische Hochschule Mannheim; Heidelberg University
+sample_origin,malaria laboratory cultures (Heidelberg University)
+staining,none
+modality,"low-cost brightfield microscopy, grayscale"
+image_format,"BMP 8-bit, 2048 x 1088 pixels"
+mask_format,"PNG palette-indexed, 2048 x 1088 pixels"
+n_fields,"442 (train 221, val 221)"
+n_masks,442
+related_article,Computational provenance in external evaluation of deep learning for malaria microscopy
+date,2026-10-20
